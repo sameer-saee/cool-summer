@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 535 192.7" style="enable-background:new 0 0 535 192.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.9;}
+	.st1{fill:url(#wave-gradient-top_1_);}
+</style>
+<g id="Layer_2_1_" class="st0">
+	<g id="Layer_1-2">
+		<g id="Layer_2-2">
+			<g id="Layer_1-2-2">
+				
+					<linearGradient id="wave-gradient-top_1_" gradientUnits="userSpaceOnUse" x1="-2232.916" y1="401.5932" x2="-2232.916" y2="401.5833" gradientTransform="matrix(-1063.5699 0 0 -279.79 -2374593.75 114126.3906)">
+					<stop  offset="0" style="stop-color:#121212"/>
+					<stop  offset="0.21" style="stop-color:#151823"/>
+					<stop  offset="1" style="stop-color:#163A71"/>
+				</linearGradient>
+				<path id="wave-gradient-top" class="st1" d="M536,193.6L1,193.7c0,0,41.7-0.1,77.9-42.3c37.6-39.5,64-100.6,129.8-111.3
+					c48.6-6.7,78,8.1,121.6,25.8S442.4,75,476.2,33.2C494.3,10.8,515.5,2,536,1V193.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

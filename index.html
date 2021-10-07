@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Cool Summers Refrigeration</title>
+
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#home" id="logo"><img src="images/coolsummers-logo.svg" alt="logo"></a>
+            <ul>
+                <li><a href="#home">Menu</a></li>
+                <li><a href="#contact">Enquire Now</a></li>
+            </ul>
+        </nav>
+
+        <nav class="hamburger-nav">
+            <div class="hamburger-sidebar">
+                <button class="hamburger-cross"><img src="images/icons/cross.svg" alt="cross icon"></button>
+                <ul class="hamburger-nav-container">
+                    <li><a href="page-about.html" class="main">About Us</a></li>
+                    <li><a href="#services" class="main">Our Services</a>
+                        <ul class="services-links-container">
+                            <li><a href="page-installations.html"><i class="fas fa-arrow-right"></i>Installations</a></li>
+                            <li><a href="page-repairs.html"><i class="fas fa-arrow-right"></i>Repairs & Breakdowns</a></li>
+                            <li><a href="page-servicing.html"><i class="fas fa-arrow-right"></i>Servicing & Maintenance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact" class="main">Contact Us</a></li>
+                    <li class="main" id="hamburger-enquire"><a href="#enquire">Enquire Now</a></li>
+                    <li id="hamburger-fb"><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section-grey-a" id="main-section">\
+        <div class="main-landing-flex">
+            <div class="textbox-container-main">
+                <h1 data-enllax-ratio="0.1" data-enllax-type="foreground">Helping You With Your Air Conditioning & Refrigeration Needs</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="white-button" type="button">About Us</button>
+            </div>
+            <div class="image-container-main">
+                <img src="images/ac-illustration-white.svg" alt="ac illustration white">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-white-a">
+        <div class="header-right"><h1>Our Services</h1></div>
+        <div class="services-container-flex">
+            <div class="services-container" data-enllax-ratio="0.2" data-enllax-type="foreground">
+                <div class="image-container-services"><img id="ac-installation" src="images/services-icons/installation-illustration.svg" alt="installation illustration"></div>
+                <h2>Installations</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="black-button" type="button">Learn More</button>
+            </div>
+            <div class="services-container" data-enllax-ratio="0.1" data-enllax-type="foreground">
+                <div class="image-container-services"><img src="images/services-icons/repairs-illustration.svg" alt="repairs illustration"></div>
+                <h2>Repairs & Breakdowns</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="black-button" type="button">Learn More</button>
+            </div>
+            <div class="services-container" data-enllax-ratio="0.05" data-enllax-type="background">
+                <div class="image-container-services"><img src="images/services-icons/servicing-illustration.svg" alt="servicing illustration"></div>
+                <h2>Servicing & Maintenance</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="black-button" type="button">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grey">
+        <div class="carousel1-container">
+                    <div class="carousel1-slider" id="quality-afford" data-enllax-ratio="0.2" data-enllax-type="foreground">
+                            <img src="images/photos-installs/install-1.jpeg" alt="install photo 1">
+                            <img src="images/photos-installs/install-2.jpeg" alt="install photo 2">
+                            <img src="images/photos-installs/install-3.jpeg" alt="install photo 3">
+                            <img src="images/photos-installs/install-4.jpeg" alt="install photo 4">
+                            <img src="images/photos-installs/install-5.jpeg" alt="install photo 5">
+                    </div>
+                <div class="buttons-container">
+                    <button type="button" class="white-carousel-button" id="prev-image" onclick="carouselBackward()"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="white-carousel-button" id="next-image" onclick="carouselForward()"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="textbox-container-main-right" style="align-self: flex-end;">
+                    <h1>Quality & Affordability</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <ul class="links-container">
+                        <li><i class="fas fa-arrow-right"></i><a href="./page-installations.html" onclick="fadeOutThis()">More About Installations</a></li>
+                        <li><i class="fas fa-arrow-right"></i><a href="./page-installations.html">More About Repairs & Breakdowns</a></li>
+                        <li><i class="fas fa-arrow-right"></i><a href="./page-installations.html">More About Servicing & Maintenance</a></li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <section class="section-white-small">
+        <div class="testimonial-container">
+            <div class="testimonial-item" data-enllax-ratio="0.025" data-enllax-type="foreground">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <i class="fas fa-quote-right"></i>
+                <h3>Client Name</h3>
+            </div>
+            <div class="testimonial-item" data-enllax-ratio="0.05" data-enllax-type="foreground">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <i class="fas fa-quote-right"></i>
+                <h3>Client Name</h3>
+            </div>
+            <div class="testimonial-item" data-enllax-ratio="0.075" data-enllax-type="foreground">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <i class="fas fa-quote-right"></i>
+                <h3>Client Name</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grey-b">
+        <div class="contact-main-container" data-enllax-ratio="0.1" data-enllax-type="foreground">
+                <div class="textbox-container-left">
+                    <h1>We'd Love To Help You!</h1>
+                    <div class="contact-container">
+                        <p><i class="far fa-envelope"></i><a href="#email">coolsummersrefrigeration@outlook.com</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i><a href="#location">Boyne Island, QLD, 4680</a></p>
+                        <p><i class="fab fa-facebook-f"></i><a href="#facebook"></a>Cool Summers Refrigeration</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h1>What type of service are you after?</h1>
+                    <div class="service-select-container">
+                        <input type="button" value="a/c installation">
+                        <input type="button" value="a/c repair">
+                        <input type="button" value="a/c maintenance">
+                        <input type="button" value="refrigeration installation">
+                        <input type="button" value="refrigeration repair">
+                        <input type="button" value="refrigeration maintenance">
+                    </div>
+                    <div class="user-input-container">
+                        <div class="input-items">
+                            <input type="text">
+                        </div>
+                        <div class="input-items">
+                            <input type="text">
+                        </div>
+                        <div class="input-items">
+                            <input type="text">
+                        </div>
+                        <div class="input-items">
+                            <textarea id="message-input" placeholder="Write your message"></textarea>
+                        </div>
+                        <div class="input-items">
+                            <button class="black-button" id="submit-button" type="button">Submit</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="section-footer">
+        <div class="footer-container">
+            <div class="footer-items">
+                <h3>About Us</h3>
+                <li><i class="fas fa-arrow-right"></i><a href="#page-about.html">What We Do</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="#aboutus-ourteam">Our Team</a></li>
+            </div>
+            <div class="footer-items" id="our-services">
+                <h3>Our Services</h3>
+                <li><i class="fas fa-arrow-right"></i><a href="page-installation.html">Installations</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="page-repairs.html">Repairs & Breakdowns</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="page-servicing.html">Servicing & Maintenance</a></li>
+            </div>
+            <div class="footer-items" id="contact-us">
+                <h3>Contact Us</h3>
+                <li><i class="fas fa-mobile-alt"></i>+61 401 233 603</li>
+                <li><i class="far fa-envelope"></i><a href="#email">coolsummersrefrigeration@outlook.com</a></li>
+                <li><i class="fas fa-map-marker-alt"></i><a href="#location">Boyne Island, QLD, 4680</a></li>
+                <li><i class="fab fa-facebook-f"></i><a href="#facebook">Cool Summers Refrigeration</a></li>
+            </div>
+            <div class="footer-items">
+                <h3>Proudly Aboriginal & Torres Strait Islander Owned</h3>
+                <li><img id="flags" src="images/aboriginal-flag.png" alt="phone icon"><img id="flags" src="images/torres-flag.png" alt="email icon"></li>
+                <li><button class="white-button" id="footer-button" type="button">Enquire Now</button></li>
+            </div>
+        </div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+    <!-- Script for smooth scrolling -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+    
+    <script src="jquery.enllax.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script src="./slick/slick.js"></script>
+
+    <script>
+
+        (function($){
+            
+            //Plugin activation
+            $(window).enllax();
+            
+//            $('#some-id').enllax();
+            
+//            $('selector').enllax({
+//                type: 'background', // 'foreground'
+//                ratio: 0.5,
+//                direction: 'vertical' // 'horizontal'
+//            });
+            
+        })(jQuery);
+    </script>
+
+    
+
+    <script>
+        function fadeOutThis(){
+            $(document).ready(function() {
+
+            $('body').css('display', 'none');
+
+            $('body').fadeOut(1000);
+            })
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel1-slider').slick({
+                autoplay: true,
+                speed: 2500,
+            });
+            });
+    </script>
+    
+    <script>
+        function carouselForward(){
+            $('.slick-next').click();
+        }
+
+        function carouselBackward(){
+            $('.slick-prev').click();
+        }
+    </script>
+</body>
+</html>
